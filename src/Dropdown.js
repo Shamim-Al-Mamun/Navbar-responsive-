@@ -17,14 +17,14 @@ function Dropdown() {
   return (
     <>
       <div className="dropdown-menu">
-        <a>item1</a>
-        <a>item2</a>
+        <a href="item1">item1</a>
+        <a href="/item1">item2</a>
         <span
           className="item3"
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
         >
-          <a>
+          <a href="/item3">
             <span className="item3-item">
               item3 <FaCaretRight />
             </span>
@@ -33,7 +33,7 @@ function Dropdown() {
             </span>
           </a>
         </span>
-        <a>item4</a>
+        <a href="/item4">item4</a>
       </div>
     </>
   );

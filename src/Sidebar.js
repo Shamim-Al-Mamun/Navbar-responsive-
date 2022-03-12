@@ -93,7 +93,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a className="link" href="" onClick={handleDropdown}>
+            <a className="link" href="/services" onClick={handleDropdown}>
               Services
               {dropdown ? <FaCaretUp /> : <FaCaretDown />}
             </a>

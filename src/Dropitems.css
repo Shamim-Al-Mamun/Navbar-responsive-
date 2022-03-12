@@ -1,0 +1,13 @@
+.item {
+  background: var(--clr-primary-8);
+  color: white;
+  width: 5rem;
+  height: 6rem;
+  position: absolute;
+  top: 0;
+  left: 6.1rem;
+  margin-left: 0.5rem;
+  list-style: none;
+  text-align: start;
+  cursor: pointer;
+}
